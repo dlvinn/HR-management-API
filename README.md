@@ -63,6 +63,10 @@ Follow these steps to set up the project:
 
 9. **Access the Application**: Open a web browser and navigate to the URL provided by the `php artisan serve` command to access the application.
 
+
+10. **to run the migration and seeder**:
+ ```bash
+ php artisan migrate --seed
 ## Testing
 
 To run tests for the project, execute the following command:
