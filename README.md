@@ -10,7 +10,7 @@ Before setting up the project, ensure that the following prerequisites are met:
 
 - PHP >= 7.4
 - Composer
-- Node.js and NPM (for frontend assets)
+
 
 ## Installation Steps
 
