@@ -29,7 +29,7 @@ class EmployeeProjectsTableSeeder extends Seeder
             ];
         }
 
-        // Insert the generated assignments into the pivot table
+        // Inserting the generated assignments into the pivot table
         DB::table('employee_project')->insert($assignments);
     }
 }
