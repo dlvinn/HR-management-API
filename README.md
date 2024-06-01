@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document provides instructions for setting up and configuring the project environment for the **[Project Name]** project. It includes steps for installing dependencies, configuring the environment, running migrations, and starting the development server.
+This document provides instructions for setting up and configuring the project environment for the **HR management System** project. It includes steps for installing dependencies, configuring the environment, running migrations, and starting the development server.
 
 ## Prerequisites
 
