@@ -49,22 +49,16 @@ Follow these steps to set up the project:
     php artisan migrate
     ```
 
-7. **Compile Assets**: If the project includes frontend assets (JavaScript, CSS), compile them using Laravel Mix or any other build tools configured for the project:
-
-    ```bash
-    npm install && npm run dev
-    ```
-
-8. **Start Development Server**: Finally, start the development server to run the Laravel application locally:
+7. **Start Development Server**: Finally, start the development server to run the Laravel application locally:
 
     ```bash
     php artisan serve
     ```
 
-9. **Access the Application**: Open a web browser and navigate to the URL provided by the `php artisan serve` command to access the application.
+8. **Access the Application**: Open a web browser and navigate to the URL provided by the `php artisan serve` command to access the application.
 
 
-10. **to run the migration and seeder**:
+9. **to run the migration and seeder**:
  ```bash
  php artisan migrate --seed
 ## Testing
