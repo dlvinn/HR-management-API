@@ -42,23 +42,30 @@ Follow these steps to set up the project:
     ```
 
 5. **Database Setup**: Create a new database for the project and update the database configuration in the `.env` file with the appropriate credentials.
+6. **Database Connection Details**
+- **Database System:** PostgreSQL
+- **Host:** 127.0.0.1
+- **Port:** 5432
+- **Database Name:** hr_management
+- **Username:** postgres
+- **Password:** *****
 
-6. **Run Migrations**: Run database migrations to create the necessary tables in the database:
+7. **Run Migrations**: Run database migrations to create the necessary tables in the database:
 
     ```bash
     php artisan migrate
     ```
 
-7. **Start Development Server**: Finally, start the development server to run the Laravel application locally:
+8. **Start Development Server**: Finally, start the development server to run the Laravel application locally:
 
     ```bash
     php artisan serve
     ```
 
-8. **Access the Application**: Open a web browser and navigate to the URL provided by the `php artisan serve` command to access the application.
+9. **Access the Application**: Open a web browser and navigate to the URL provided by the `php artisan serve` command to access the application.
 
 
-9. **to run the migration and seeder**:
+10. **to run the migration and seeder**:
  ```bash
  php artisan migrate --seed
 ## Testing
